@@ -84,7 +84,7 @@ body {
     z-index: 999;
     position: sticky;
     top: 0;
-    left: 0;
+    left: 0; 
 }
 
 #navbar {
@@ -146,14 +146,6 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-}
-
-#hero h4 {
-    padding-bottom: 15px;
-}
-
-#hero h1 {
-    color: #088178;
 }
 
 #hero button {
@@ -297,7 +289,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("img/banner/b2.jpg");
+    background-image: url("img/b2.jpeg");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -335,7 +327,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("../hnt/b2.jpeg");
+    background-image: url("img/shopping.jpeg");
     min-width: 580px;
     height: 50vh;
     background-size: cover;
@@ -344,7 +336,7 @@ body {
 }
 
 #sm-banner .banner-box2 {
-    background-image: url("../hnt/b2.jpeg");
+    background-image: url("img/shopping2.png");
 }
 
 #sm-banner h4 {
@@ -389,7 +381,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("img/banner/b7.jpg");
+    background-image: url("img/shoping1.png");
     min-width: 30%;
     height: 30vh;
     background-size: cover;
@@ -399,7 +391,7 @@ body {
 }
 
 #banner3 .banner-box2 {
-    background-image: url("img/banner/b4.jpg");
+    background-image: url("img/shopping3.png");
 }
 
 #baaer3 .banner-box3 {
@@ -536,13 +528,17 @@ footer .copyright {
 
 /* Single Product */
 
+/* BLog Page */
 
-/*Cart Page */
+/* About Page */
+
+
+/* Cart Page */
 
 
 /* Start Medio Query */
 
-@media (max-width:799px) {
+/* /* @media (max-width:799px) { */
     .section-p1 {
         padding: 40px 40px;
     }
@@ -636,7 +632,7 @@ footer .copyright {
     }
 }
 
-@media (max-width: 477px) {
+/* @media (max-width: 477px) { */
     .section-p1 {
         padding: 20px;
     }
@@ -702,4 +698,3 @@ footer .copyright {
     footer .copyright {
         text-align: start;
     }
-}
